@@ -1,4 +1,4 @@
-# Bloom Init 🌸
+# Bloom Initializr 🌸
 
 A modern project template for quickly bootstrapping Rust web applications with the **bloom-web** framework.
 
