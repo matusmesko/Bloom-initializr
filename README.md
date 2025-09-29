@@ -213,12 +213,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built with the amazing Rust ecosystem
 - Thanks to the Actix Web and SQLx communities
 
-## Support
-
-- 📚 [Documentation](link-to-docs)
-- 🐛 [Issue Tracker](link-to-issues)
-- 💬 [Discussions](link-to-discussions)
-
 ---
 
 **Happy coding with Bloom Init!** 🌸🦀
