@@ -123,16 +123,16 @@ pub async fn get_bloom_user_by_id(
 The application can be configured through `config.toml`:
 
 ```toml
-[server]
-host = "0.0.0.0"
 port = 8080
+database_url = "mysql://user:pass@host:3306/dbname"
 
-[database]
-url = "mysql://username:password@localhost/database_name"
-max_connections = 10
-
-[logging]
-level = "info"
+[cors]
+enabled = true
+allowed_origins = ["http://localhost:3000"]
+allowed_methods = ["GET", "POST", "PUT", "DELETE", "PATCH"]
+allowed_headers = ["Content-Type", "Authorization"]
+allow_credentials = true
+max_age = 3600
 ```
 
 ## Development
