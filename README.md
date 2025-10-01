@@ -1,4 +1,4 @@
-# Bloom Init 🌸
+# Bloom Initializr 🌸
 
 A modern project template for quickly bootstrapping Rust web applications with the **bloom-web** framework.
 
@@ -123,16 +123,16 @@ pub async fn get_bloom_user_by_id(
 The application can be configured through `config.toml`:
 
 ```toml
-[server]
-host = "0.0.0.0"
 port = 8080
+database_url = "mysql://user:pass@host:3306/dbname"
 
-[database]
-url = "mysql://username:password@localhost/database_name"
-max_connections = 10
-
-[logging]
-level = "info"
+[cors]
+enabled = true
+allowed_origins = ["http://localhost:3000"]
+allowed_methods = ["GET", "POST", "PUT", "DELETE", "PATCH"]
+allowed_headers = ["Content-Type", "Authorization"]
+allow_credentials = true
+max_age = 3600
 ```
 
 ## Development
@@ -205,19 +205,13 @@ cargo build --release
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/matusmesko/Bloom/blob/master/LICENSE) file for details.
 
 ## Acknowledgments
 
 - Inspired by modern web development practices
 - Built with the amazing Rust ecosystem
 - Thanks to the Actix Web and SQLx communities
-
-## Support
-
-- 📚 [Documentation](link-to-docs)
-- 🐛 [Issue Tracker](link-to-issues)
-- 💬 [Discussions](link-to-discussions)
 
 ---
 
