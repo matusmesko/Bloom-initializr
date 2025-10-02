@@ -385,9 +385,9 @@ dependencies = [
 
 [[package]]
 name = "bloom-web"
-version = "0.1.5"
+version = "0.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "912bdec3b015d14fec5afd199083f79a1470b425302e11911cc29ddd04b14764"
+checksum = "91cbe0a6a3585616cfee97e00f80d313137214dc54fc544ab91614945dcb63b9"
 dependencies = [
  "actix-web",
  "anyhow",
@@ -426,9 +426,9 @@ dependencies = [
 
 [[package]]
 name = "bloom-web-macros"
-version = "0.1.4"
+version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3084f5d7f4cebd35f1d1bba6d4c7c6fa283d7ec0c9684906c75ac67af6b783a5"
+checksum = "14914907f3d74bf02ea32c577544accbf5155c7ea977d29b18c8d9f4eb2ba075"
 dependencies = [
  "bloom-web-core",
  "inventory",

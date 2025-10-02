@@ -2,6 +2,26 @@
 
 A modern project template for quickly bootstrapping Rust web applications with the **bloom-web** framework.
 
+## 🚀 Quick Setup with CLI
+
+For the fastest way to create new projects based on this template, install the CLI tool:
+
+```bash
+cargo install cargo-bloom-web
+```
+
+Then create a new project:
+
+```bash
+cargo bloom-web init
+```
+
+This will scaffold a new project with all the necessary dependencies and structure based on this template.
+
+**CLI Package**: [cargo-bloom-web](https://crates.io/crates/cargo-bloom-web)
+
+---
+
 ## Overview
 
 Bloom Init is a project template and scaffolding tool that helps developers quickly bootstrap modern Rust web applications using the bloom-web framework. This template provides a solid foundation for building robust, scalable web services in Rust with minimal setup.
